@@ -1,6 +1,23 @@
+
 {
+  "name": "project-2",
+  "version": "1.0.0",
+  "description": "RPG Character Builder",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --open",
+    "build": "rollup -c",
+    "test": "echo \"No test specified\" && exit 0"
+  },
   "dependencies": {
     "wired-elements": "^3.0.0-rc.6"
-  }
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.26",
+    "rollup": "^3.2.5"
+  },
+  "author": "Your Name",
+  "license": "ISC"
 }
+
 
