@@ -1,20 +1,27 @@
 {
-  "name": "project-2",
-  "version": "1.0.0",
-  "description": "RPG Character Builder",
-  "main": "index.js",
-  "scripts": {
-    "start": "web-dev-server --open",
-    "build": "rollup -c",
-    "test": "echo \"No test specified\" && exit 0"
-  },
-  "dependencies": {
-    "wired-elements": "^3.0.0-rc.6"
-  },
-  "devDependencies": {
-    "@web/dev-server": "^0.1.26",
-    "rollup": "^3.29.5"
-  },
-  "author": "Your Name",
-  "license": "ISC"
+    "type": "module",
+    "name": "project-2",
+    "version": "1.0.0",
+    "description": "RPG Character Builder",
+    "main": "index.js",
+    "scripts": {
+        "start": "web-dev-server --open",
+        "build": "rollup -c",
+        "test": "echo \"No test specified\" && exit 0"
+    },
+    "dependencies": {
+        "rollup-plugin-html": "^0.2.1",
+        "wired-elements": "^3.0.0-rc.6"
+    },
+    "devDependencies": {
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^25.0.8",
+        "@rollup/plugin-node-resolve": "^15.3.0",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@web/dev-server": "^0.1.26",
+        "@web/rollup-plugin-html": "^2.3.0",
+        "rollup": "^3.2.5"
+    },
+    "author": "Corien Zavod",
+    "license": "ISC"
 }
